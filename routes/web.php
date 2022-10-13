@@ -42,9 +42,27 @@ Route::get('/community', function () {
     return view('/pages/community');
 });
 
+Route::get('/terms', function() {
+    return view('pages.terms');
+});
+
+Route::get('/webterms', function() {
+    return view('pages.webterms');
+});
+
+Route::get('/privacy', function() {
+    return view('pages.privacy');
+});
+
+
 Route::get('/profile', 'App\Http\Controllers\ProfileController@index');
+Route::get('/eventprofile', 'App\Http\Controllers\ProfileController@event');
+Route::get('/membershipprofile', 'App\Http\Controllers\ProfileController@membership');
+Route::get('/security', 'App\Http\Controllers\ProfileController@security');
 
 Route::get('/partnership', 'App\Http\Controllers\MembershipController@index');
+
+Route::post('/logout', [App\Http\Controllers\Auth\LoginController::class, 'logout']);
 
 Auth::routes();
 

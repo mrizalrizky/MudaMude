@@ -38,7 +38,7 @@
             </div>
 
             <div class="terms">
-                <p><a href="/terms">Customer Terms & Conditions</a> | Web Terms of Use | <a href="/privacy">Privacy & Policy</a></p>
+                <p><a href="/terms">Customer Terms & Conditions</a> | <a href="/webterms">Web Terms of Use</a> | <a href="/privacy">Privacy Policy</a></p>
             </div>
         </div>
     </div>

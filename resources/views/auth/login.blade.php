@@ -10,7 +10,7 @@
     <div class="data">
         <div class="judul">
             <h1>Masuk ke akun kamu</h1>
-            <p>Masukan kredensial pada form</p>
+            <p>Masukkan kredensial pada form</p>
         </div>
 
         <div class="dataandImg">

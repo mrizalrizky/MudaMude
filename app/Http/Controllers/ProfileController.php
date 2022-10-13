@@ -7,6 +7,18 @@ use Illuminate\Http\Request;
 class ProfileController extends Controller
 {
     public function index() {
+        return view('pages.profile');
+    }
 
+    public function event() {
+        return view('pages.profile.event');
+    }
+
+    public function membership() {
+        return view('pages.profile.membershipprofile');
+    }
+
+    public function security() {
+        return view('pages.profile.security');
     }
 }

@@ -2,6 +2,7 @@
 @section('title', 'Partnership')
 
 @section('content')
+
     <div class="partnership">
 
         <!-- posterKolaborasi -->
@@ -50,11 +51,14 @@
         <!-- posterUploadEvent -->
         <img class="uploadEventGratis" src="image/thumbnail_GratisUploadEvent.svg" alt="">
 
+
+
         <!-- membership -->
             <div class="WaktunyaJadiMember">
                 <h1>Waktunya Jadi Member!</h1>
             </div>
 
+            @if(count($memberships) > 0)
             @foreach ($memberships as $membership)
             <div class="membershipLvl">
                 <div class="plans">
@@ -81,6 +85,13 @@
                 </div>
             </div>
             @endforeach
+
+            @else
+            @php
+                echo "No Membership Plans Available";
+            @endphp
+
+            @endif
 
             <!-- testimoni -->
             <div class="apaKataMereka">

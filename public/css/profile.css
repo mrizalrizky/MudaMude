@@ -147,17 +147,26 @@
     font-size: 16px;
 }
 .help a{
-    color: #0E185F; 
-    font-size: 14px; 
+    color: #0E185F;
+    font-size: 14px;
 }
 .logOut{
     margin-bottom: 35px;
 }
-.logOut a{
+
+/* .logOut a{
     color: red;
     font-size: 17px;
     font-weight: bold;
+} */
+
+.logOut button{
+    color: red;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
 }
+
 .details{
     display: flex;
     flex-direction: column;
