@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin : 0;
+    padding: 0;
+}
+p{
+    font-family: poppins;
+    font-weight: bold;
+    color: #0E185F;
+}
+h1{
+    font-family: poppins;
+    color: #0E185F;
+}
+a{
+    font-family: poppins;
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    width: 7%;
+    margin-left: 33px;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 25px;
+    margin-top: 0px;
+    height: 110px;
+    z-index: 2;
+}
+.navBar p{
+    display: inline-block;
+    padding: 0px 14px;
+    color: #0E185F;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.navBar a{
+    display: inline-block;
+    padding: 0px 14px;
+    color: #0E185F;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.login button{
+    color: white;
+    text-align: center;
+    background-color: #0E185F;
+    font-family: Poppins;
+    font-size: 11pt;
+    width: 107px;
+    height: 35px;
+    margin: 0 auto;
+    margin-right: 60px;
+    border-radius: 40px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+}
+.profile img{
+    width: 70%;
+}
+.user a{
+    color: #0E185F;
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
+    top: 10px;
+    right: 10px;
+}

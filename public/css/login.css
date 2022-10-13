@@ -1,0 +1,126 @@
+.data{
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.judul {
+    margin-right: 23.5%;
+    padding-bottom: 30px;
+}
+.judul h1{
+    font-size: 23px;
+    margin-right: 10px;
+}
+.judul p{
+    margin-top: -3px;
+    font-size: 15px;
+    margin-right: 17px;
+}
+.dataandImg{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: center;
+    margin-left: 120px;
+    align-items: center;
+}
+.data img{
+    width: 23%;
+    height: 50%;
+    margin-left: 90px;
+}
+.placeholder{
+    padding: 35px 10px 20px 30px;
+    background-color: #F4F4F4;
+    width: 15%;  
+    border-radius: 20px;
+}
+.placeholderEmail{
+    padding: 2px;
+}
+.placeholderPass{
+    padding: 8px 2px;
+}
+.placeholder input{
+    padding: 3px;
+    border-radius: 9px;
+    border: none;
+}
+.placeholderEmail input{
+    padding: 10px 0px 10px 6px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+.placeholderPass input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    margin-bottom: 3px;
+}
+.placeholder p{
+    margin-bottom: 5px;
+}
+.lupaPass a{
+    position: relative;
+    font-weight: bold;
+    color: #0E185F;
+    font-size: 10px;
+    float: right;
+    top: 6px;
+    right: 24px;
+    margin-bottom: 10px;
+}
+.logins button{
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+    background-color: #0E185F;
+    font-size: 11pt;
+    width: 90%;
+    margin-top: 15px;
+    height: 35px;
+    border-radius: 80px;
+    border: none;
+}
+.logins2 button{
+    text-align: center;
+    font-family: Poppins; 
+    background-color: white;
+    font-size: 11pt;
+    width: 90%;
+    margin-top: 17px;
+    height: 35px;
+    border-radius: 80px;
+    border: none;
+}
+.logins2 img{
+    width: 7%;
+    height: 50%;
+    margin: 0;
+}
+.google{
+    position: relative;
+    top: 3.5px;
+    right: 6px;
+}
+.logins2 a{
+    color: #0E185F;
+}
+::placeholder{
+    color: #626262;
+    font-family: Poppins;
+    font-size: 13px;
+}
+.signUp{
+    text-align: center;
+    padding: 21px;
+    padding-bottom: 0px;
+}
+
+.signUp a{
+    margin-right: 20px;
+    font-size: 11px;
+    color: #0E185F;
+}

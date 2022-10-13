@@ -1,0 +1,40 @@
+.aboutImg{
+    width: 40%;
+}
+.about{
+    text-align: center;
+}
+.about img{
+    padding: 28px 0px;
+    width: 60%;
+}
+
+.ourMission h1{
+    padding: 16px 0px;
+    font-size: 15pt;
+    color: #0E185F;
+}
+.ourMission p{
+    color: #0E185F;
+    font-size: 15px;
+    padding: 0px 350px;
+    font-weight: 600;
+}
+.KenapaMudaMude h1{
+    padding: 16px 0px;
+    font-size: 15pt;
+    margin-top: 43px;
+    color: #0E185F;
+}
+
+.KenapaMudaMude p{
+    color: #0E185F;
+    font-size: 15px;
+    padding: 0px 350px;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+.punyaPertanyaanImg{
+    width: 1373px;
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin : 0;
+    padding: 0;
+}
+p{
+    font-family: poppins;
+    font-weight: bold;
+    color: #0E185F;
+}
+h1{
+    font-family: poppins;
+    color: #0E185F;
+}
+a{
+    font-family: poppins;
+    color: white;
+    text-decoration: none;
+}
+.Profile button{
+    background-color: #F4F4F4;
+}
+.Security button{
+    background-color: white;
+}
+.confirmImg{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    border-radius: 25px;
+    padding: 48px 36px;
+}
+.confirmImg img{
+    width: 48%;
+}

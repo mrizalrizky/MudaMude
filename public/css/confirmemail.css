@@ -1,0 +1,32 @@
+.conf img{
+    margin-left: 83px;
+    margin-top: 25px;
+    margin-bottom: 8px;
+    width: 32%;
+}
+.confEmail h1{
+    text-align: center;
+    font-size: 15px;
+    margin-left: -25px;
+    margin-bottom: 8px;
+}
+.confEmail p{
+    text-align: center;
+    font-size: 11px;
+    margin-left: -22px;
+}
+
+.ok button{
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+    background-color: #0E185F;
+    font-size: 11pt;
+    width: 70%;
+    margin-top: 12px;
+    margin-left: 32px;
+    margin-bottom: 10px;
+    height: 35px;
+    border-radius: 80px;
+    border: none;
+}

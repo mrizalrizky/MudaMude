@@ -1,0 +1,268 @@
+.partnershipImg{
+    width: 40%;
+}
+.partnership{
+    text-align: center;
+}
+.partnership img{
+    padding: 28px 0px;
+    width: 60%;
+}
+
+.KolaborasiBerlangsung h1{
+    padding: 16px 0px;
+    font-size: 15pt;
+    color: #0E185F;
+}
+.KolaborasiBerlangsung p{
+    color: #0E185F;
+    font-size: 15px;
+    padding: 0px 350px;
+    font-weight: 600;
+}
+.WaktunyaJadiMember h1{
+    padding: 16px 0px;
+    padding-bottom: 0px;
+    font-size: 15pt;
+    color: #0E185F;
+}
+
+.WaktunyaJadiMember p{
+    color: #0E185F;
+    font-size: 15px;
+    padding: 0px 350px;
+    font-weight: 600;
+}
+
+.apaKataMereka h1{
+    padding: 1px 0px;
+    font-size: 15pt;
+    margin-top: 30px;
+    color: #0E185F;
+}
+.testimoni1 img{
+    width: 25%;
+    padding: 0;
+    float: left;
+    margin-top: -3px;
+}
+.testimoni2 img{
+    width: 25%;
+    padding: 0;
+    float: left;
+    margin-top: -3px;
+}
+.testimoni3 img{
+    width: 25%;
+    padding: 0;
+    float: left;
+    margin-top: -3px;
+}
+.testimoni{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.testimoni1{
+    background-color: #77ACF1;
+    margin: 20px;
+    width: 200px;
+    padding: 17px 20px 20px 10px;
+    border-radius: 15px;
+}
+.testiPeople1 p{
+    font-family: poppins;
+    color: #0E185F;
+    font-size: 7.5pt;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: left;
+    margin-left: 55px;
+}
+.testiPeople1Detail p{
+    font-family: poppins;
+    color: #0E185F;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 10px;
+    text-align: left;
+    padding: 8px 0px 6px 7px;
+}
+.testimoni2{
+    background-color: #C0FEFC;
+    margin: 20px;
+    width: 200px;
+    padding: 17px 17px 20px 10px;
+    border-radius: 15px;
+}
+.testiPeople2 p{
+    font-family: poppins;
+    color: #0E185F;
+    font-size: 7.5pt;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: left;
+    margin-left: 55px;
+}
+.testiPeople2Detail p{
+    font-family: poppins;
+    color: #0E185F;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 10px;
+    text-align: left;
+    padding: 8px 0px 6px 7px;
+}
+.testimoni3{
+    background-color: #BBE1FA;
+    margin: 20px;
+    width: 200px;
+    padding: 17px 20px 20px 10px;
+    border-radius: 15px;
+}
+.testiPeople3 p{
+    font-family: poppins;
+    color: #0E185F;
+    font-size: 7.5pt;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: left;
+    margin-left: 55px;
+}
+.testiPeople3Detail p{
+    font-family: poppins;
+    color: #0E185F;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 10px;
+    text-align: left;
+    padding: 8px 0px 6px 7px;
+}
+
+.event{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    width: 75%;
+    align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.event h1{
+    font-size: 14px;
+    font-weight: bold;
+}
+.event p{
+    font-size: 12px;
+    font-weight: normal;
+}
+.event img{
+    width: 100%;
+    padding: 0;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+}
+.e1{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+}
+.e2{
+    margin-bottom: 30px;
+    margin-right: 30px;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+}
+.e3{
+    margin-right: 30px;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.text{
+    text-align: left;
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-bottom: 13px;
+}
+
+.membershipLvl{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.plans {
+    text-align: center;
+    width: 9.5%;
+    padding: 20px 17px;
+    background-color: #F4F4F4;
+    /* margin-right: 45px; */
+    height: 100%;
+    border-radius: 20px;
+}
+
+.price p{
+    font-size: 11px;
+}
+.detailPlan{
+    margin-top: 10px;
+    text-align: left;
+}
+.benefit{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.benefit img{
+    padding: 0;
+    width: 10%;
+    height: 10%;
+    margin-top: 1px;
+}
+.benefit p{
+    font-size: 11px;
+    font-weight: normal;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.buy button{
+    color: white;
+    font-family: Poppins;
+    background-color: #0E185F;
+    width: 90px;
+    height: 32px;
+    border-radius: 30px;
+    margin-top: 30px;
+    border: none;
+}
+
+mark {
+    display: inline-block;
+    line-height: 0;
+    padding-bottom: 9px;
+    background-color: #2FA4FF;
+    border-radius: 25px;
+    width: 100px
+
+  }
+
+  span {
+    display: inline-block;
+    line-height: 0;
+    padding-bottom: 9px;
+    background-color: #2FA4FF;
+    border-radius: 25px;
+    width: 60px
+
+  }
+
+

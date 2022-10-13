@@ -1,0 +1,277 @@
+.introduction{
+    text-align: center;
+}
+.platformKolaborasi h1{
+    font-size: 21pt;
+    color: #0E185F;
+    margin-bottom: 30px;
+}
+
+/* masalah  follow us ada di sini karena padding*/
+.introduction img{
+    /* padding: 28px 0px; */
+    /* width: 60%; */
+}
+
+.heroImg{
+    width: 60%;
+    padding: 28px 0px;
+}
+
+.gabungSekarang button{
+    background-color: #2FA4FF;
+    white-space: nowrap;
+    font-family: Poppins;
+    color: white;
+    text-align: center;
+    font-size: 10.5pt;
+    width: 170px;
+    height: 48px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 40px;
+    border: none;
+}
+.gabungSekarang a{
+    font-size: 10.5pt;
+    font-family: poppins;
+    text-decoration: none;
+    color: white;
+}
+.gerakBarengMudaMude {
+    text-align: center;
+}
+.gerakBarengMudaMude h1{
+    padding: 16px 0px;
+    font-size: 15pt;
+    margin-top: 60px;
+    color: #0E185F;
+}
+.gerakBarengMudaMude p{
+    color: #0E185F;
+    font-size: 12pt;
+    padding: 0px 350px;
+    font-weight: bold;
+}
+.BIG h1{
+    padding: 1px 0px;
+    font-size: 15pt;
+    margin-top: 43px;
+    color: #0E185F;
+}
+.benefit1 img{
+    width: 50%;
+}
+.benefit2 img{
+    width: 50%;
+}
+.benefit3 img{
+    width: 40%;
+}
+.benefit{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.benefit1{
+    background-color: #f4f4f4;
+    white-space: nowrap;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 220px;
+    height: 170px;
+    border-radius: 15px;
+}
+.cariInfotxt button{
+    background-color: #0E185F;
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+    justify-content: center;
+    white-space: nowrap;
+    font-size: 8.5pt;
+    width: 100px;
+    height: 27px;
+    margin: 0 auto;
+    margin-top: 6px;
+    border-radius: 40px;
+    border: none;
+}
+.benefit1 h1{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+.benefit2{
+    background-color: #f4f4f4;
+    white-space: nowrap;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 220px;
+    height: 170px;
+    border-radius: 15px;
+}
+.benefit2 h1{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+.promosiEventtxt button{
+    background-color: #0E185F;
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+    justify-content: center;
+    white-space: nowrap;
+    font-size: 8.5pt;
+    width: 100px;
+    height: 27px;
+    margin: 0 auto;
+    margin-bottom: 1px;
+    border-radius: 40px;
+    border: none;
+}
+.benefit3{
+    background-color: #f4f4f4;
+    white-space: nowrap;
+    padding: 20px;
+    margin: 20px;
+    width: 220px;
+    height: 170px;
+    border-radius: 15px;
+}
+.belajarBarengtxt button{
+    background-color: #0E185F;
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+    justify-content: center;
+    white-space: nowrap;
+    font-size: 8.5pt;
+    width: 100px;
+    height: 27px;
+    margin: 0 auto;
+    margin-top: 1px;
+    border-radius: 40px;
+    border: none;
+}
+.belajarBarengtxt a{
+    font-size: 7pt;
+    font-family: poppins;
+    text-decoration: none;
+    color: white;
+}
+.benefit3 h1{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+.AKM h1{
+    padding: 1px 0px;
+    font-size: 15pt;
+    margin-top: 5px;
+    color: #0E185F;
+}
+.apaKataMereka{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.allPeople{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.people1{
+    background-color: #77ACF1;
+    margin: 20px;
+    width: 220px;
+    height: 170px;
+    padding: 17px 20px 20px 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.people2{
+    background-color: #C0FEFC;
+    margin: 20px;
+    width: 220px;
+    height: 170px;
+    padding: 17px 20px 20px 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.people3{
+    background-color: #BBE1FA;
+    margin: 20px;
+    width: 220px;
+    height: 170px;
+    padding: 17px 20px 20px 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.testiPeople{
+    display: flex;
+    flex-direction: row;
+}
+.people1 img{
+    width: 25%;
+    height: 85%;
+    padding: 0;
+    float: left;
+    margin-top: -3px;
+    margin-right: 10px;
+}
+.people1 p{
+    text-align: left;
+    font-size: 11px;
+}
+.people2 img{
+    width: 25%;
+    height: 85%;
+    padding: 0;
+    float: left;
+    margin-top: -3px;
+    margin-right: 10px;
+}
+.people2 p{
+    text-align: left;
+    font-size: 11px;
+}
+.people3 img{
+    width: 25%;
+    height: 85%;
+    padding: 0;
+    float: left;
+    margin-top: -3px;
+    margin-right: 10px;
+}
+.people3 p{
+    text-align: left;
+    font-size: 11px;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+}
+.nama{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.nama h1{
+    font-size: 13px;
+}
+.isi{
+    margin-left: 10px;
+}
+.isi p{
+    font-size: 12px;
+    font-weight: normal;
+}

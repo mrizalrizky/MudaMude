@@ -1,0 +1,165 @@
+header{
+    background-color: #F4F4F4;
+}
+
+.registerEvent{
+    background-color: #F4F4F4;
+    margin-top: 65px;
+    border-radius: 25px;
+    padding: 20px 30px;
+	margin-left: 30%;
+	margin-right: 30%;
+	text-align: center;
+	padding: 20px;
+}
+
+.headerRegisterEvent{
+    background-color: #F4F4F4;
+    height: 120px;
+    text-align: left;
+    padding: 25px;
+    padding-right: 65%;
+	padding-left: 10%;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+.headerRegisterEvent h1{
+    font-size: 28px;
+}
+.headerRegisterEvent p{
+    font-size: 16px;
+}
+
+.judulInfo p {
+	margin-top: 20px;
+	font-size: 23px;
+}
+
+.eventInfo{
+    border-radius: 20px;
+	text-align: left;
+	padding: 50px;
+	padding-top: 15px;
+
+}
+.eventInfo p{
+    font-size: 15px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+.eventInfo input{
+    padding: 10px 0px 10px 10px;
+    width: 250px;
+	height: 20px;
+    margin-bottom: 10px;
+	border-radius: 9px;
+    border: none;
+}
+
+input::placeholder{
+	font-size: 15px;
+}
+
+.Title_Organizer{
+    display: flex;
+    flex-direction: row;
+}
+
+.Title input{
+    width: 300px;
+}
+
+.Organizer{
+    margin-left: 30px;
+}
+
+.Date_Time_Duration{
+    display: flex;
+    flex-direction: row;
+}
+
+.Time{
+    margin-left: 30px;
+}
+
+.Time_icon{
+    position: static;
+    margin-top: -32.5%;
+    text-align: right;
+    margin-right: 12px;
+    margin-bottom: 15%;
+}
+
+.Time_icon img{
+    width: 15%;
+}
+
+.Date_icon{
+    position: static;
+    margin-top: -23.5%;
+    text-align: right;
+    margin-right: 12px;
+    margin-bottom: 15%;
+}
+
+.Date_icon img{
+    width: 10%;
+}
+
+.Duration_icon{
+    position: static;
+    margin-top: -23.5%;
+    text-align: right;
+    margin-right: 12px;
+    margin-bottom: 15%;
+}
+
+.Duration img{
+    width: 10%;
+}
+
+.Duration{
+    margin-left: 30px;
+}
+
+.Location_Price{
+    display: flex;
+    flex-direction: row;
+}
+
+.Price{
+    margin-left: 30px;
+}
+
+.Description input,.Benefit input,.eligibility input{
+	width: 300px;
+	height: 50px;
+}
+
+.Date input,.Duration input,.Location input,.Price input{
+	width: 150px;
+}
+
+.Time input{
+    width: 110px;
+}
+
+.confirmRegis{
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+}
+
+.confirmRegis button{
+    color: white;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #0E185F;
+    width: 80px;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 35px;
+    border: none;
+	margin-bottom: 15px;
+}

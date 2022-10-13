@@ -1,0 +1,156 @@
+header{
+    background-color: white;
+}
+.upload{
+    position: relative;
+    background-color: #F4F4F4;
+    width: 550px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    padding: 30px 15px 75px 30px;
+    margin-bottom: 150px;
+    border-radius: 20px;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 7px;
+}
+.head img{
+    width: 20%;
+}
+.head h1{
+    font-size: 18px;
+}
+.head p{
+    font-size: 14px;
+}
+.detailsPeople{
+    display: flex;
+    flex-direction: row;
+}
+.isi{
+    margin-left: 17px;
+}
+.dots{
+    margin-top: 8px;
+    margin-right: 6.2px;
+}
+.dots img{
+    width: 77%;
+}
+.userDo{
+    position: absolute;
+    right: 29px;
+    display: none;
+    background-color: white;
+    padding: 15px;
+    margin-top: 1px;
+    border-radius: 15px;
+}
+.userDo a{
+    font-size: 14px;
+    color: #0E185F;
+    font-weight: normal;
+}
+.report a{
+    color: red;
+}
+.dots:hover .userDo{
+    display: block;
+}
+.details{
+    margin-top: 5px;
+    margin-left: 15.4%;
+    padding-right: 30%;
+}
+.details p{
+    font-size: 16px;
+    font-weight: normal;
+}
+.anyLink{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 15.4%;
+    padding: 0px 0px 0px 15px;
+    border-radius: 20px;
+}
+.anyLink p{
+    font-weight: normal;
+    font-size: 16px;
+}
+.anyLink button{
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+    background-color: #0E185F;
+    font-size: 11pt;
+    width: 73px;
+    height: 32px;
+    margin-left: 46.5px;
+    border-radius: 20px;
+    border: none;
+}
+.activity{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+hr{
+    margin-right: 24.5px;
+}
+.activity img{
+    width: 65%;
+}
+.uploadComments input{
+    padding: 10px 0px 10px 20px;
+    width: 92.3%;
+    height: 18px;
+    margin-top: 15px;
+    border-radius: 20px;
+    border: none;
+}
+::placeholder{
+    color: #0E185F;
+    font-size: 14px;
+    font-weight: normal;
+}
+.send{
+    position: absolute;
+    text-align: right;
+    right: 53px;
+    bottom: 162px;
+}
+.send img{
+    width: 50%;
+}
+.delete{
+    padding: 2px 0px;
+}
+.comments{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 92.3%;
+    height: 40px;
+    background-color: white;
+    padding: 8px 0px 5px 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.comments p{
+    font-size: 14px;
+    font-weight: normal;
+}
+.commentLogo img{
+    width: 65%;
+    position: relative;
+    top: 5px;
+}

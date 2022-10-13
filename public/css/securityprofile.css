@@ -1,0 +1,32 @@
+.Profile button{
+    background-color: #F4F4F4;
+}
+.Security button{
+    background-color: white;
+}
+.details1{
+    padding-right: 70px;
+    padding-bottom: 75px;
+    width: 100%;
+}
+.personalInfo h1{
+    padding-top: 0px;
+}
+.placeholderOldPass input{
+    padding: 12px 0px 7px 10px;
+    width: 75%;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+.placeholderNewPass input{
+    padding: 12px 0px 7px 10px;
+    width: 75%;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+.placeholderConfirmPass input{
+    padding: 12px 0px 7px 10px;
+    width: 75%;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}

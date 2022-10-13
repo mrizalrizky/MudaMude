@@ -1,0 +1,57 @@
+.text{
+    text-align: center;
+}
+.data{
+    padding: 20px;
+    margin: 20px;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.judul {
+    margin-right: 23.5%;
+    padding-bottom: 30px;
+}
+.judul h1{
+    font-size: 23px;
+    margin-right: 60px;
+}
+.judul p{
+    margin-top: -3px;
+    font-size: 15px;
+    margin-left: 127px;
+}
+.placeholder{
+    padding: 25px 10px 20px 30px;
+    background-color: #F4F4F4;
+    width: 15%;  
+    border-radius: 20px;
+}
+.dataandImg{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: center;
+    margin-left: 120px;
+    align-items: flex-start;
+}
+.infoEmail p{
+    font-size: 11px;
+    text-align: center;
+    margin-left: -22px;
+}
+.send button{
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+    background-color: #0E185F;
+    font-size: 11pt;
+    width: 70%;
+    margin-top: 12px;
+    margin-left: 32px;
+    margin-bottom: 10px;
+    height: 35px;
+    border-radius: 80px;
+    border: none;
+}

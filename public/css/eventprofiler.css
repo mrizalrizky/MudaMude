@@ -1,0 +1,17 @@
+.conf{
+    margin-top: 27px;
+    background-color: #F4F4F4;
+    text-align: center;
+    padding: 41px 41px 31px;
+    border-radius: 25px;
+}
+.upload button{
+    background-color: #0E185F;
+    color: white;
+    font-weight: normal;
+}
+.register button{
+    background-color: white;
+    color: #0E185F;
+    font-weight: bold;
+}

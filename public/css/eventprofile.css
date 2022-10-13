@@ -1,0 +1,101 @@
+.Profile button{
+    background-color: #F4F4F4;
+}
+.Event button{
+    background-color: white;
+}
+.details1{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    padding-bottom: 75px;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
+.bttn{
+    display: flex;
+    flex-direction: row;
+    background-color: #0E185F;
+    padding: 10px 0px;
+    justify-content: center;
+    width: 50%;
+    height: 35px;
+    align-items: center;
+    border-radius: 20px;
+}
+.upload button{
+    color: #0E185F;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: white;
+    width: 100px;
+    height: 27px;
+    border-radius: 30px;
+    margin-right: 10px;
+    border: none;
+}
+.register button{
+    color: white;
+    background-color: #0E185F;
+    font-family: Poppins;
+    font-size: 12px;
+    width: 100px;
+    height: 27px;
+    border-radius: 30px;
+    border: none;
+}
+.event{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    padding-top: 40px;
+    width: 100%;
+    margin-left: -150px;
+    margin-right: -150px;
+}
+.event h1{
+    font-size: 14px;
+    font-weight: bold;
+}
+.event p{
+    font-size: 12px;
+    font-weight: normal;
+}
+.event img{
+    width: 100%;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+}
+.e1{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+}
+.e2{
+    margin-bottom: 30px;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+}
+.e3{
+    margin-right: 30px;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+}
+.e4{
+    background-color: #F4F4F4;
+    border-radius: 20px;
+}
+.text{
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-bottom: 13px;
+}

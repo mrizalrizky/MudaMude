@@ -1,0 +1,131 @@
+header{
+    background-color: #F4F4F4;
+}
+
+.mainRegisterEvent{
+	display: flex;
+	justify-content: center;
+
+}
+
+.registerEvent{
+	width: 40%;
+    background-color: #F4F4F4;
+    margin-top: 27px;
+    border-radius: 25px;
+    padding: 20px 30px;
+	/* margin-left: 30%;
+	margin-right: 30%; */
+	text-align: center;
+}
+
+.detailRegis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    padding: 17px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.headerRegisterEvent{
+    background-color: #F4F4F4;
+    height: 120px;
+    text-align: left;
+    padding: 25px;
+    padding-right: 65%;
+	padding-left: 10%;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+.headerRegisterEvent h1{
+    font-size: 28px;
+}
+.headerRegisterEvent p{
+    font-size: 16px;
+}
+
+.detailRegisInfo{
+    text-align: left;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.judulInfo p {
+	margin-top: 20px;
+	font-size: 23px;
+}
+
+.personalInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+	text-align: left;
+	padding: 50px;
+	padding-top: 15px;
+
+}
+
+.Nama_TglLahir{
+margin-right: 115px;
+}
+
+.personalInfo p{
+    font-size: 15px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+.personalInfo input{
+    padding: 10px 0px 10px 10px;
+    width: 165px;
+	height: 20px;
+    margin-bottom: 10px;
+	border-radius: 9px;
+    border: none;
+}
+
+input::placeholder{
+	font-size: 15px;
+}
+
+
+.confirmRegis{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.confirmRegis button{
+    color: white;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #0E185F;
+    width: 80px;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 35px;
+    border: none;
+	margin-bottom: 15px;
+	/* margin-left: 80%; */
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.icon_calendar{
+    display: flex;
+    justify-content: right;
+    position: static;
+    margin-top: -40px;
+    margin-right: 12px;
+}
+
+.icon_calendar img{
+    width: 20px;
+}

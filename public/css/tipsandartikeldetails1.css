@@ -1,0 +1,38 @@
+
+.tipsandArtikelDetails1{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.head a{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 23.1%;
+    top: 13%;
+    font-size: 30px;
+    
+}
+.headTips1 h1{
+    font-size: 23px;
+}
+.source p{
+    font-size: 14px;
+    font-weight: normal;
+}
+.imageTaA1{
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.imageTaA1 img{
+    width: 25%;
+}
+.content{
+    padding: 50px 450px;
+    text-align: left;
+}
+.content p{
+    margin-bottom: 40px;
+    font-size: 17px;
+}

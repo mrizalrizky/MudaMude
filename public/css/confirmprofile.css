@@ -1,0 +1,32 @@
+.conf{
+    margin-top: 27px;
+    background-color: #F4F4F4;
+    text-align: center;
+    padding: 41px 41px 31px;
+    border-radius: 25px;
+}
+.confirmImg{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    border-radius: 25px;
+    padding: 48px 47px;
+}
+.confirmImg img{
+    width: 53.7%;
+}
+.confirmImg p{
+    margin-top: 40px;
+    font-size: 17px;
+}
+.ok button{
+    color: white;
+    font-family: Poppins;
+    background-color: #0E185F;
+    width: 90px;
+    height: 32px;
+    border-radius: 30px;
+    margin-top: 50px;
+    border: none;
+}

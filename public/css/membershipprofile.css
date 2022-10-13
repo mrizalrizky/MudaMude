@@ -1,0 +1,129 @@
+.Profile button{
+    background-color: #F4F4F4;
+}
+.Membership button{
+    background-color: white;
+}
+.details{
+    padding-right: 200px;
+    width: 500px;
+}
+.membership{
+    width: 100%;
+}
+.status{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 2px 9px;
+    padding-right: 30px;
+    margin-top: 10px;
+    width: 45%;
+    height: 50px;
+    border-radius: 10px;
+}
+.status img{
+    width: 17%;
+    height: 33px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.personalInfo h1{
+    padding-top: 0px;
+}
+.txt1 h1{
+    margin-top: 7px;
+    font-size: 14px;
+}
+.txt1 p{
+    white-space: nowrap;
+    font-size: 11px;
+    font-weight: normal;
+}
+.membershipLvl{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: auto;
+    width: 100%;
+}
+.plan1{
+    text-align: center;
+    width: 90%;
+    padding: 20px 12px;
+    background-color: white;
+    margin-right: 50px;
+    height: 100%;
+    border-radius: 20px;
+}
+.plan2{
+    text-align: center;
+    width: 100%;
+    padding: 20px 12px;
+    background-color: white;
+    height: 100%;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.plan1 p{
+    font-size: 15px;
+}
+.plan2 p{
+    font-size: 15px;
+}
+.price p{
+    font-size: 11px;
+}
+.detailPlan{
+    margin-top: 10px;
+    text-align: left;
+}
+.benefit{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.benefit img{
+    width: 10%;
+    height: 10%;
+    margin-top: 1px;
+}
+.benefit p{
+    font-size: 11px;
+    font-weight: normal;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.buy button{
+    color: white;
+    font-family: Poppins;
+    background-color: #0E185F;
+    width: 90px;
+    height: 32px;
+    border-radius: 30px;
+    margin-top: 30px;
+    border: none;
+}
+.profiles{
+    margin-bottom: 10px;
+}
+
+mark {
+    display: inline-block;
+    line-height: 0;
+    padding-bottom: 9px;
+    background-color: #2FA4FF;
+    border-radius: 25px;
+    width: 100px
+    
+  }
+
+  span {
+    display: inline-block;
+    line-height: 0;
+    padding-bottom: 9px;
+    background-color: #2FA4FF;
+    border-radius: 25px;
+    width: 60px
+    
+  }

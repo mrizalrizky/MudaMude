@@ -1,0 +1,41 @@
+.details1{
+    width: 85%;
+}
+.VA button{
+    background-color: white;
+    font-weight: normal;
+}
+.DC button{
+    background-color: #F4F4F4;
+    font-weight: bold;
+}
+.placeholder{
+    padding-top: 12px;
+    text-align: left;
+}
+.placeholder p{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+}
+.placeholder input{
+    background-color: #F4F4F4;
+    width: 50%;
+    padding: 7px 0px 7px 10px;
+    margin-bottom: 5px;
+}
+.NC{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 60%;
+}
+.placeholderCVV{
+    margin-left: -30px;
+}
+.coupon p{
+    margin-top: 0px;
+}
+.coupon input{
+    margin: 3px 0px 5px;
+}

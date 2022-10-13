@@ -1,0 +1,109 @@
+header{
+    background-color: #F4F4F4;
+}
+
+.headerRegisterEvent{
+    background-color: #F4F4F4;
+    height: 120px;
+    text-align: left;
+    padding: 25px;
+    padding-right: 65%;
+	padding-left: 10%;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+.headerRegisterEvent h1{
+    font-size: 28px;
+}
+.headerRegisterEvent p{
+    font-size: 16px;
+}
+
+.mainRegisterEvent{
+	display: flex;
+	justify-content: center;
+}
+
+.registerEvent{
+	width: 20%;
+    background-color: #F4F4F4;
+    margin-top: 27px;
+    border-radius: 25px;
+    padding: 20px 30px;
+	/* margin-left: 37%;
+	margin-right: 37%; */
+}
+
+.detailRegis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    padding: 17px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.detailRegisInfo{
+    text-align: left;
+}
+.detailRegis p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.detailJudul p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.detailRegis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    padding: 17px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+	border-radius: 20px;
+
+}
+.detailRegisInfo{
+    text-align: left;
+}
+.detailRegis p{
+    margin-top: 10px;
+    font-size: 14px;
+	font-weight: normal;
+}
+.detailJudul p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.confirmRegis button{
+    color: white;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #0E185F;
+    width: 130px;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 35px;
+    border: none;
+}
+.hubungiAdmin{
+    margin-top: 10px;
+	margin-bottom: 10px;
+}
+.hubungiAdmin a{
+    color: #0E185F;
+    font-size: 11px;
+}

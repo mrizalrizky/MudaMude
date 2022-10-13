@@ -1,0 +1,228 @@
+header{
+    background-color: #F4F4F4;
+}
+.events{
+    text-align: center;
+}
+.headerEvents{
+    background-color: #F4F4F4;
+    height: 120px;
+    text-align: left;
+    padding: 25px;
+	padding-right: 60%;
+	padding-left: 10%;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+.headerEvents h1{
+    font-size: 28px;
+}
+.headerEvents p{
+    font-size: 16px;
+}
+.contentsMain{
+    display: flex;
+    flex-direction: column;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -61px;
+}
+.bttn{
+    display: flex;
+    justify-content: center;
+    background-color: #0E185F;
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 15px;
+}
+
+.SearchEvent{
+    display: flex;
+    flex-direction: row;
+}
+
+.SearchEvent input{
+	padding: 5px;
+    margin-top: 3px;
+    border-radius: 9px;
+    border: none;
+	padding: 10px 0px 10px 10px;
+    width: 75%;
+    margin-bottom: 3px;
+}
+
+.cariEventSymbol{
+    position: absolute;
+    right: 59.9%;
+    top: 29.8%;
+}
+
+.cariEventSymbol img{
+    width: 80%;
+}
+
+.Date{
+	max-width: 15%;
+}
+
+.Date input{
+	padding: 5px;
+    margin-top: 3px;
+    border-radius: 9px;
+    border: none;
+	padding: 10px 0px 10px 10px;
+    width: 85%;
+    margin-bottom: 3px;
+}
+
+.dateSymbol{
+    position: absolute;
+    right: 53.3%;
+    top: 29.8%;
+}
+
+.dateSymbol img{
+    width: 80%;
+}
+
+.Location input{
+	padding: 5px;
+    margin-top: 3px;
+    border-radius: 9px;
+    border: none;
+	padding: 10px 0px 10px 10px;
+    width: 75%;
+    margin-bottom: 3px;
+}
+
+.locationSymbol{
+    position: absolute;
+    right: 44.5%;
+    top: 29.8%;
+    z-index: 2;
+}
+
+.locationSymbol img{
+    width: 80%;
+}
+
+.Category input{
+	padding: 5px;
+    margin-top: 3px;
+    border-radius: 9px;
+    border: none;
+	padding: 10px 0px 10px 10px;
+    width: 80%;
+    margin-bottom: 3px;
+}
+
+.categorySymbol{
+    position: absolute;
+    right: 35.1%;
+    top: 29.8%;
+    z-index: 2;
+}
+
+.categorySymbol img{
+    width: 80%;
+}
+
+.add img{
+	padding-top: 3px;
+    width: 80%;
+	margin-left: 5px;
+}
+
+.head{
+    text-align: left;
+    padding-left: 480px;
+    margin-top: 20px;
+}
+.contentDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 10px;
+}
+.contentDetails img{
+    width: 100%;
+    height: 65%;
+}
+.contentDetails h1{
+    font-size: 14px;
+}
+.contentDetails p{
+    font-size: 12px;
+    font-weight: normal;
+}
+.head h1{
+    font-size: 22px;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 10px;
+}
+.contentOuter, .contentMid{
+    width: 14.3%;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+}
+.contentMid{
+    margin: 0px 60px;
+}
+.text{
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: -7px;
+}
+.b{
+    text-align: left;
+}
+.b button{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: 15px;
+    bottom: 115px;
+    background-color: #0E185F;
+    color: white;
+    width: 32px;
+    height: 23px;
+    border-radius: 20px;
+}
+.n{
+    text-align: right;
+}
+.n button{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 15px;
+    bottom: 115px;
+    background-color: #0E185F;
+    color: white;
+    width: 32px;
+    height: 23px;
+    border-radius: 20px;
+}
+.showTaA button{
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+    background-color: #0E185F;
+    font-size: 11pt;
+    width: 7%;
+    height: 38px;
+    margin-top: 100px;
+    border-radius: 20px;
+    border: none;
+}
