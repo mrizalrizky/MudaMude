@@ -24,7 +24,10 @@
                     <div class="status">
                         <img src="image/MembershipWallet.png" alt="">
                         <div class="txt1">
-                           <h1>{{ Auth::user()->membership_name }}</h1>
+                        @php
+                            $member = DB::table('users')->select('membership_name')->join('memberships', 'memberships.membership_id', '=', 'users.membership_id')->get();
+                        @endphp
+                           <h1>{{ $member }}</h1> // ini masih salah
                             <p>Berakhir pada Selamanya</p>
                         </div>
                     </div>
