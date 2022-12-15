@@ -47,7 +47,7 @@
     height: auto;
     width: 100%;
 }
-.plan1{
+.plans{
     text-align: center;
     width: 90%;
     padding: 20px 12px;
@@ -55,22 +55,9 @@
     margin-right: 50px;
     height: 100%;
     border-radius: 20px;
-}
-.plan2{
-    text-align: center;
-    width: 100%;
-    padding: 20px 12px;
-    background-color: white;
-    height: 100%;
-    border-radius: 20px;
-    margin-right: 10px;
-}
-.plan1 p{
     font-size: 15px;
 }
-.plan2 p{
-    font-size: 15px;
-}
+
 .price p{
     font-size: 11px;
 }
@@ -115,7 +102,7 @@ mark {
     background-color: #2FA4FF;
     border-radius: 25px;
     width: 100px
-    
+
   }
 
   span {
@@ -125,5 +112,5 @@ mark {
     background-color: #2FA4FF;
     border-radius: 25px;
     width: 60px
-    
+
   }

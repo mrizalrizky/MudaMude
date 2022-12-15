@@ -1,4 +1,3 @@
-
 @extends('layouts.app')
 
 @section('title', 'Profile')
@@ -29,7 +28,7 @@
                     <p>{{ Auth::user()->username }}</p>
                     </div>
                     <div class="univ">
-                        <p>Universitas Bina Nusantara</p>
+                        <p>{{ Auth::user()->institution }}</p>
                     </div>
                 </div>
             </div>
@@ -37,34 +36,27 @@
             <h1>Personal Information</h1>
             </div>
             <div class="placeholder">
-                <div class="placeholderName">
-                    <p>Nama</p>
-                    <input type="text" name="name" placeholder="{{ Auth::user()->name }}" required >
-                </div>
-                <div class="placeholderEmail">
-                    <p>Email Address</p>
-                    <input type="email" name="emailLogin" placeholder="{{ Auth::user()->email }}" required >
-                </div>
-                <div class="placeholderUsername">
-                    <p>Username</p>
-                    <input type="text" name="userName" placeholder="{{ Auth::user()->username }}" required >
-                </div>
-                <div class="placeholderPhone">
-                    <p>Phone</p>
-                    <input type="text" name="phone" placeholder="{{ Auth::user()->phone }}" required >
-                </div>
-                <div class="placeholderInstitution">
-                    <p>Institution</p>
-                    <input type="text" name="institution" placeholder="{{ Auth::user()->institution}}" required >
-                </div>
-                <div class="placeholderMajor">
-                    <p>Major</p>
-                <input type="text" name="major" placeholder="{{ Auth::user()->major}}" required >
-                </div>
+                <p>Nama</p>
+                <input id="name" type="text" name="name" placeholder="{{ Auth::user()->name }}" required >
+
+                <p>Email Address</p>
+                <input id="email" type="email" name="emailLogin" placeholder="{{ Auth::user()->email }}" required >
+
+                <p>Username</p>
+                <input id="username" type="text" name="userName" placeholder="{{ Auth::user()->username }}" required >
+
+                <p>Phone</p>
+                <input id="phone" type="tel" name="phone" placeholder="{{ Auth::user()->phone }}" required >
+
+                <p>Institution</p>
+                <input id="institution" type="text" name="institution" placeholder="{{ Auth::user()->institution}}" required >
+
+                <p>Major</p>
+                <input id="major" type="text" name="major" placeholder="{{ Auth::user()->major}}" required >
             </div>
         </div>
 
-        <div class="details2">
+        {{-- <div class="details2">
             <h1>Linked Account</h1>
             <div class="link">
                 <div class="sosmed">
@@ -92,7 +84,8 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
+
         <div class="bttn">
             <div class="save">
                 <a href="confirmProfile.html">
@@ -114,5 +107,5 @@
 @endsection
 
 @push('after-style')
-<link rel="stylesheet" href="css/profile.css">
+<link rel="stylesheet" href="{{ asset('css/profile.css') }}">
 @endpush

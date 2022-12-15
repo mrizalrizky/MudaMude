@@ -100,6 +100,7 @@
     </form>
         <img src="image/LoginImg.png" alt="">
     </div>
+</div>
 
 @endsection
 

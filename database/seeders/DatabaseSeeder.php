@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\EventCategory;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
@@ -24,5 +25,6 @@ class DatabaseSeeder extends Seeder
         //      'institution' => 'Bina Nusantara']
         // );
         $this->call(MembershipSeeder::class);
+        $this->call(EventCategorySeeder::class);
     }
 }

@@ -44,7 +44,7 @@
                 </div>
                 <div class="add">
                     <a href="UploadEventStep1Verify.html">
-                        <img src="image/+.png" alt="">
+                        <img src="image/plus.png" alt="">
                     </a>
                 </div>
             </div>
@@ -56,43 +56,25 @@
                         <h1>Upcoming Events</h1>
                     </div>
                     <div class="details">
+                        @foreach ($events as $event)
+                        @if ($loop->iteration%2 != 0)
                         <div class="contentOuter">
                             <a href="eventDetails.html">
                                 <img src="image/thumbnail_StressManage.svg" alt="">
                                 <div class="text">
-                                    <h1>Stress Management</h1>
-                                    <p>Universitas Gajah Mada</p>
-                                    <p>3 September 2022</p>
+                                    <h1>{{ $event->title }}</h1>
+                                    <p>{{ $event->organizer_name }}</p>
+                                    <p>{{ $event->date->format('j F Y') }}</p>
                                 </div>
                             </a>
+                            @if ($loop->iteration == 1)
+
                             <div class="b">
                                 <a href="">
-                                    <button>
-                                        <
-                                    </button>
+                                    <button> < </button>
                                 </a>
                             </div>
-
-                        </div>
-                        <div class="contentMid">
-                            <a href="">
-                                <img src="image/thumbnail_ProduktifEraPandemi.svg" alt="">
-                                <div class="text">
-                                    <h1>Produktif di era pandemi</h1>
-                                    <p>Universitas Indonesia</p>
-                                    <p>7 September 2022</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="contentOuter">
-                            <a href="">
-                                <img src="image/thumbnail_JagoPublic Speaking.svg" alt="">
-                                <div class="text">
-                                    <h1>Jago Public Speaking</h1>
-                                    <p>Institut Teknologi Bandung</p>
-                                    <p>3 September 2022</p>
-                                </div>
-                            </a>
+                            @elseif ($loop->iteration == 3)
                             <div class="n">
                                 <a href="">
                                     <button>
@@ -100,10 +82,27 @@
                                     </button>
                                 </a>
                             </div>
+                            @endif
+
+
                         </div>
+                        @elseif ($loop->iteration%2 == 0)
+                        <div class="contentMid">
+                            <a href="">
+                                <img src="image/thumbnail_keluargaGojek.svg" alt="">
+                                <div class="text">
+                                    <h1>{{ $event->title }}</h1>
+                                    <p>{{ $event->organizer_name }}</p>
+                                    <p>{{ $event->date->format('j F Y') }}</p>
+                                </div>
+                            </a>
+                        </div>
+                        @endif
+                        @endforeach
                     </div>
                 </div>
             </div>
+
             <div class="contents">
                 <div class="contentDetails">
                     <div class="head">

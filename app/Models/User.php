@@ -18,7 +18,6 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
-        'membership_id',
         'name',
         'username',
         'email',
@@ -45,4 +44,13 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function membership() {
+        return $this->belongsTo(Membership::class, 'membership_id');
+    }
+
+    public function post() {
+        return $this->hasMany(Post::class, 'id');
+    }
+
 }

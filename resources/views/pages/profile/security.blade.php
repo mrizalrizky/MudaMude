@@ -51,6 +51,6 @@
 @endsection
 
 @push('after-style')
-<link rel="stylesheet" href="css/profile.css">
-<link rel="stylesheet" href="css/securityprofile.css">
+<link rel="stylesheet" href="{{ asset('css/profile.css') }}">
+<link rel="stylesheet" href="{{ asset('css/securityprofile.css') }}">
 @endpush

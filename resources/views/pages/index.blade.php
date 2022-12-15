@@ -9,7 +9,7 @@
         </div>
         <img class="heroImg" src="image/introimage.png" alt="">
         <div class="gabungSekarang">
-            <a href="">
+            <a href="{{ route('register') }}">
                 <button type="button">Mulai Kolaborasi!</button>
             </a>
         </div>

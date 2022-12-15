@@ -50,6 +50,16 @@ header{
     margin-top: 1px;
     border-radius: 15px;
 }
+
+.userDo button {
+    font-family: 'Poppins';
+    font-weight: normal;
+    color: #0E185F;
+    font-size: 14px;
+    border:none;
+    background-color: white;
+}
+
 .userDo a{
     font-size: 14px;
     color: #0E185F;

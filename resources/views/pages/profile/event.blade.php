@@ -1,13 +1,13 @@
 @extends('layouts.app')
 
-@section('title', 'Profile')
+@section('title', 'Event Profile')
 
 @section('content')
     <div class="profiles">
         <div class="dashboard">
             <div class="judul">
                 <h1>Dashboard</h1>
-                @include('includes.profilesidebar')
+            @include('includes.profilesidebar')
             </div>
 
         </div>
@@ -37,7 +37,7 @@
                     <div class="row1">
                         <div class="e1">
                             <a href="">
-                                <img src="image/event1.png" alt="">
+                                <img src="{{ asset('image/event1.png')}}" alt="">
                                 <div class="text">
                                     <h1>Stess Management</h1>
                                     <p>Universitas Gajah Mada</p>
@@ -47,7 +47,7 @@
                         </div>
                         <div class="e2">
                             <a href="">
-                                <img src="image/event2.png" alt="">
+                                <img src="{{ asset('image/event2.png')}}" alt="">
                                 <div class="text">
                                         <h1>Jago Public Speaking</h1>
                                         <p>Institut Teknologi Bandung</p>
@@ -59,7 +59,7 @@
                     <div class="row2">
                         <div class="e3">
                             <a href="">
-                                <img src="image/event3.png" alt="">
+                                <img src="{{ asset('image/event3.png')}}" alt="">
                                 <div class="text">
                                         <h1>Jadi Bagian Keluarga Gojek</h1>
                                         <p>Gojek Indonesia</p>
@@ -69,7 +69,7 @@
                         </div>
                         <div class="e4">
                             <a href="">
-                                <img src="image/event4.png" alt="">
+                                <img src="{{ asset('image/event4.png')}}" alt="">
                                 <div class="text">
                                         <h1>Belajar Jadi Penyiar GRATIS! </h1>
                                         <p>Prambors Radio</p>
@@ -85,6 +85,6 @@
 @endsection
 
 @push('after-style')
-<link rel="stylesheet" href="css/profile.css">
-<link rel="stylesheet" href="css/eventProfile.css">
+<link rel="stylesheet" href="{{ asset('css/profile.css') }}">
+<link rel="stylesheet" href="{{ asset('css/eventProfile.css') }}">
 @endpush

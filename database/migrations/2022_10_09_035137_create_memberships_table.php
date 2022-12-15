@@ -14,9 +14,10 @@ class CreateMembershipsTable extends Migration
     public function up()
     {
         Schema::create('memberships', function (Blueprint $table) {
-            $table->id('membership_id');
-            $table->string('membership_name');
-            $table->integer('membership_price');
+            $table->id();
+            $table->string('name');
+            $table->integer('price');
+            $table->longText('description');
         });
     }
 

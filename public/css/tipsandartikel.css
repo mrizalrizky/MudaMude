@@ -43,6 +43,12 @@
 .head h1{
     font-size: 22px;
 }
+
+.contentsTaA h3 {
+    font-family: 'Poppins';
+    color: #0E185F;
+}
+
 .details{
     display: flex;
     flex-direction: row;

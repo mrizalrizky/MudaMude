@@ -40,7 +40,21 @@ header{
     padding-right: 20px;
     border-radius: 15px;
 }
-.belajarBareng button{
+
+.bttn .button button {
+    color: white;
+    background-color: #0E185F;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: bold;
+    width: 110px;
+    height: 27px;
+    border-radius: 10px;
+    margin-right: 12px;
+    border: none;
+}
+
+.bttn .button .active {
     color: #0E185F;
     font-family: Poppins;
     font-size: 12px;
@@ -52,17 +66,7 @@ header{
     margin-right: 12px;
     border: none;
 }
-.tipsandArtikel button{
-    color: white;
-    background-color: #0E185F;
-    font-family: Poppins;
-    font-size: 12px;
-    width: 110px;
-    height: 27px;
-    border-radius: 10px;
-    margin-right: 8px;
-    border: none;
-}
+
 .add img{
     width: 80%;
     position: relative;
@@ -74,15 +78,7 @@ header{
 .BB p{
     font-size: 22px;
 }
-.belajarBarengDetails1{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 20px;
-    padding-top: 0;
-    margin-top: 20px;
-}
-.belajarBarengDetails2{
+.belajarBarengDetails{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -139,6 +135,10 @@ header{
 .peopleDetail{
     display: flex;
     flex-direction: column;
+}
+
+.PeopleDetail img{
+    height: 50px;
 }
 .nama{
     margin-top: 5px;
@@ -328,3 +328,4 @@ header{
     border-radius: 30px;
     border: none;
 }
+

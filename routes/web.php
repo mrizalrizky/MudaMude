@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PartnershipController;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,33 +15,15 @@ use App\Http\Controllers\PartnershipController;
 |
 */
 
-Route::get('/', function () {
-    return view('/pages/index');
-});
-
-Route::get('/forgotpassword', function () {
-    return view('/pages/forgot');
+Route::get('/reset-password', function () {
+    return view('pages.forgot');
 });
 
 Route::get('/about', function() {
-    return view('/pages/about');
+    return view('pages.about');
 });
 
-Route::get('/login', function () {
-    return view('/pages/login');
-});
 
-Route::get('/register', function () {
-    return view('/pages/register');
-});
-
-Route::get('/event', function () {
-    return view('/pages/event');
-});
-
-Route::get('/community', function () {
-    return view('/pages/community');
-});
 
 Route::get('/terms', function() {
     return view('pages.terms');
@@ -54,11 +37,35 @@ Route::get('/privacy', function() {
     return view('pages.privacy');
 });
 
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('index');
 
-Route::get('/profile', 'App\Http\Controllers\ProfileController@index');
-Route::get('/eventprofile', 'App\Http\Controllers\ProfileController@event');
-Route::get('/membershipprofile', 'App\Http\Controllers\ProfileController@membership');
-Route::get('/security', 'App\Http\Controllers\ProfileController@security');
+Route::prefix('community')->group(function() {
+    Route::get('/', [App\Http\Controllers\CommunityController::class, 'index'])->name('community');
+    Route::get('/article', [App\Http\Controllers\CommunityController::class, 'article'])->name('article');
+});
+
+Route::prefix('event')->group(function() {
+    Route::get('/', [App\Http\Controllers\EventController::class, 'index'])->name('event');
+    Route::get('/details/{id}', [App\Http\Controllers\EventController::class, 'showEventDetail']);
+});
+
+Route::prefix('profile')->group(function() {
+    Route::get('/', [App\Http\Controllers\ProfileController::class, 'index'])->name('profile-index');
+    Route::get('/event', [App\Http\Controllers\ProfileController::class, 'event'])->name('profile-event');
+    Route::get('/membership', [App\Http\Controllers\ProfileController::class, 'membership'])->name('profile-membership');
+    Route::get('/membership/checkout/{id}', [App\Http\Controllers\ProfileController::class, 'checkout'])->name('membership-checkout');
+    Route::get('/security', [App\Http\Controllers\ProfileController::class, 'security'])->name('profile-security');
+
+});
+
+
+
+Route::get('/article/details/{slug}', [App\Http\Controllers\CommunityController::class, 'showArticleDetail']);
+Route::post('/community', [App\Http\Controllers\CommunityController::class, 'createPost'])->name('create-post');
+
+Route::get('/post/details/{id}', [App\Http\Controllers\CommunityController::class, 'showPostDetail']);
+Route::delete('/post/details/{id}', [App\Http\Controllers\CommunityController::class, 'deletePost']);
+
 
 Route::get('/partnership', 'App\Http\Controllers\MembershipController@index');
 
@@ -66,4 +73,3 @@ Route::post('/logout', [App\Http\Controllers\Auth\LoginController::class, 'logou
 
 Auth::routes();
 
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('index');

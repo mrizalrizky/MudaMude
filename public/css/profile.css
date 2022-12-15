@@ -233,8 +233,10 @@
     margin-top: 3px;
     border-radius: 9px;
     border: none;
+    padding: 10px 0px 10px 10px;
+    margin-bottom: 10px;
 }
-.placeholderName input{
+/* .placeholderName input{
     padding: 10px 0px 10px 10px;
     width: 75%;
     margin-bottom: 10px;
@@ -263,7 +265,7 @@
     padding: 10px 0px 10px 10px;
     width: 75%;
     margin-bottom: 25px;
-}
+} */
 ::placeholder{
     color: #0E185F;
     font-family: Poppins;

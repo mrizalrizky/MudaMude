@@ -4,15 +4,14 @@
 
 @section('content')
 
-<form method="POST" action="{{ route('login') }}">
-    @csrf
+<div class="data">
+    <div class="judul">
+        <h1>Masuk ke akun kamu</h1>
+        <p>Masukkan kredensial pada form</p>
+    </div>
 
-    <div class="data">
-        <div class="judul">
-            <h1>Masuk ke akun kamu</h1>
-            <p>Masukkan kredensial pada form</p>
-        </div>
-
+    <form method="POST" action="{{ route('login') }}">
+        @csrf
         <div class="dataandImg">
             <div class="placeholder">
                 <div class="placeholderEmail">
@@ -73,17 +72,15 @@
                 </a>
             </div> --}}
             <div class="signUp">
-                <a href="/register">Belum punya akun? Yuk daftar dulu</a>
+                <a href="{{ route('register') }}">Belum punya akun? Yuk daftar dulu</a>
             </div>
         </div>
-        <img src="image/LoginImg.png" alt="">
+        <img src="{{ asset('image/LoginImg.png')}}" alt="">
     </div>
 </div>
 
 @endsection
 
 @push('after-style')
-
-<link rel="stylesheet" href="css/navbarlogin.css">
-<link rel="stylesheet" href="css/login.css">
+<link rel="stylesheet" href="{{ asset('css/login.css')}}">
 @endpush

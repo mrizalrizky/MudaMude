@@ -59,12 +59,12 @@
             </div>
 
             @if(count($memberships) > 0)
-            @foreach ($memberships as $membership)
             <div class="membershipLvl">
+                @foreach ($memberships as $membership)
                 <div class="plans">
-                    <p>{{$membership->membership_name}}</mark></p>
+                    <p><mark>{{$membership->name }}</mark></p>
                     <div class="price">
-                        <p>Rp {{$membership->membership_price}}/bulan</p>
+                        <p>Rp {{ number_format($membership->price ,0, ',', '.') }}/bulan</p>
                     </div>
                     <div class="detailPlan">
                         <div class="benefit">
@@ -77,14 +77,13 @@
                         </div>
                     </div>
                     <div class="buy">
-                            <button>
-                                Beli
-                            </button>
+                        <a href="/profile/membership/checkout/{{ $membership->id }}">
+                            <button>Beli</button>
                         </a>
                     </div>
                 </div>
+                @endforeach
             </div>
-            @endforeach
 
             @else
             @php

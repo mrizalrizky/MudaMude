@@ -15,9 +15,9 @@ class MembershipSeeder extends Seeder
     public function run()
     {
         $data = [
-            ['membership_name' => 'Express', 'membership_price' => 0],
-            ['membership_name' => 'Lite', 'membership_price' => 100000],
-            ['membership_name' => 'Premium', 'membership_price' => 250000],
+            ['name' => 'Express', 'price' => 0],
+            ['name' => 'Lite', 'price' => 100000],
+            ['name' => 'Premium', 'price' => 250000],
         ];
         DB::table('memberships')->insert($data);
     }

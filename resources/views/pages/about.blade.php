@@ -8,7 +8,7 @@
             <div class="ourMission">
                 <h1>Our Mission</h1>
                 <p>Menjadi solusi untuk menambah wawasan dan membantu anak-anak muda indonesia
-                    dalam berkolaborasi, baik itu mempromosikan event/kegiatan antar kampus/institusi hingga menjadi platform yang mewadahi mereka dalam mengembangkan diri.</p>
+                    dalam berkolaborasi, baik itu mempromosikan event atau kegiatan antar kampus atau institusi hingga menjadi platform yang mewadahi mereka dalam mengembangkan diri.</p>
             </div>
             <div class="KenapaMudaMude">
                 <h1>Kenapa MudaMude?</h1>
